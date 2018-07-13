@@ -2,13 +2,23 @@ body {
   background-image: url("images/tableImage.jpg");
 }
 
-h1 {
+#heading {
   font-family: 'Chela One', cursive;
   text-align: center;
   font-size: 500%;
   /* padding-left: 2%; */
-  color: #4a4b4c;
+  color: #3c47bc;
   text-shadow: 1px 1px black;
+  margin-bottom: 0;
+}
+#instructions {
+  font-family: 'Chela One', cursive;
+  text-align: center;
+  font-size: 175%;
+  /* padding-left: 2%; */
+  color: #3c47bc;
+  text-shadow: 1px 1px black;
+  margin-top: 0;
 }
 
 .container {

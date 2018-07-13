@@ -4,7 +4,8 @@ gamePieces = {
   xImage: "images/" + "xImage.png",
   oImage: "images/" + "oImage.png",
   blankImage: "images/" + "blankImage.png",
-  paperblankImage: "images/" + "paperBlank.jpg"
+  paperblankImage: "images/" + "paperBlank.jpg",
+  instructions: "Click a box to get X, click once more to get O. Once the game is over Submit your Victory."
 }
 
 var a = document.getElementById("one");
@@ -27,6 +28,8 @@ var i = document.getElementById("nine");
 i.src = gamePieces.blankImage;
 var j = document.getElementById("score-card");
 j.src = gamePieces.paperblankImage;
+var k = document.getElementById("instructions");
+k.innerHTML = gamePieces.instructions;
 
 
 var counter = 0;
