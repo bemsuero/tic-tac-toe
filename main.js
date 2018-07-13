@@ -39,6 +39,36 @@ var counter7 = 0;
 var counter8 = 0;
 var counter9 = 0;
 
+function resetBoard() {
+  var c = document.getElementById("one");
+  c.src = gamePieces.blankImage;
+  var c = document.getElementById("two");
+  c.src = gamePieces.blankImage;
+  var c = document.getElementById("three");
+  c.src = gamePieces.blankImage;
+  var c = document.getElementById("four");
+  c.src = gamePieces.blankImage;
+  var c = document.getElementById("five");
+  c.src = gamePieces.blankImage;
+  var c = document.getElementById("six");
+  c.src = gamePieces.blankImage;
+  var c = document.getElementById("seven");
+  c.src = gamePieces.blankImage;
+  var c = document.getElementById("eight");
+  c.src = gamePieces.blankImage;
+  var c = document.getElementById("nine");
+  c.src = gamePieces.blankImage;
+  counter = 0;
+  counter2 = 0;
+  counter3 = 0;
+  counter4 = 0;
+  counter5 = 0;
+  counter6 = 0;
+  counter7 = 0;
+  counter8 = 0;
+  counter9 = 0;
+}
+
 
 function cycleXo() {
   if (counter == 0) {

@@ -46,6 +46,15 @@ font-family: 'Gaegu', cursive;
 text-overflow: clip;
 }
 
+button {
+  background-image: url("images/paperBlank.jpg");
+  margin-top: 0;
+  padding-top: 0;
+  width: 150px;
+  font-size: 100%;
+  font-family: 'Gaegu', cursive;
+}
+
 .gameSpace {
   max-width: 180px;
   max-height: 180px;
