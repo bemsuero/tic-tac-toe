@@ -1,32 +1,32 @@
 console.log("Everything is in control.")
 
 gamePieces = {
-  xImage: "images/" + "xImage.jpg",
-  oImage: "images/" + "oImage.jpg",
-  blankImage: "images/" + "blankImage.jpg",
+  xImage: "images/" + "xImage.png",
+  oImage: "images/" + "oImage.png",
+  blankImage: "images/" + "blankImage.png",
   paperblankImage: "images/" + "paperBlank.jpg"
 }
 
-var c = document.getElementById("one");
-c.src = gamePieces.blankImage;
-var c = document.getElementById("two");
-c.src = gamePieces.blankImage;
+var a = document.getElementById("one");
+a.src = gamePieces.blankImage;
+var b = document.getElementById("two");
+b.src = gamePieces.blankImage;
 var c = document.getElementById("three");
 c.src = gamePieces.blankImage;
-var c = document.getElementById("four");
-c.src = gamePieces.blankImage;
-var c = document.getElementById("five");
-c.src = gamePieces.blankImage;
-var c = document.getElementById("six");
-c.src = gamePieces.blankImage;
-var c = document.getElementById("seven");
-c.src = gamePieces.blankImage;
-var c = document.getElementById("eight");
-c.src = gamePieces.blankImage;
-var c = document.getElementById("nine");
-c.src = gamePieces.blankImage;
-// var a = document.getElementById("score-card");
-// a.src = gamePieces.paperblankImage;
+var d = document.getElementById("four");
+d.src = gamePieces.blankImage;
+var e = document.getElementById("five");
+e.src = gamePieces.blankImage;
+var f = document.getElementById("six");
+f.src = gamePieces.blankImage;
+var g = document.getElementById("seven");
+g.src = gamePieces.blankImage;
+var h = document.getElementById("eight");
+h.src = gamePieces.blankImage;
+var i = document.getElementById("nine");
+i.src = gamePieces.blankImage;
+var j = document.getElementById("score-card");
+j.src = gamePieces.paperblankImage;
 
 
 var counter = 0;
@@ -68,7 +68,6 @@ function resetBoard() {
   counter8 = 0;
   counter9 = 0;
 }
-
 
 function cycleXo() {
   if (counter == 0) {
@@ -213,3 +212,99 @@ function cycleXo9() {
     counter9 = 0;
   }
 };
+var keepScore = document.getElementById("score1");
+keepScore.innerHTML = "0";
+var keepScore2 = document.getElementById("score2");
+keepScore2.innerHTML = "0";
+var scoor1 = 0;
+var scoor2 = 0;
+function winConditions() {
+  if (counter == 1 && counter2 == 1 && counter3 == 1) {
+    var updateScore1 = document.getElementById("score1");
+    scoor1++;
+    updateScore1.innerHTML = scoor1;
+    alert("Player 1 Wins!");
+  } else if (counter == 2 && counter2 == 2 && counter3 == 2) {
+    var updateScore2 = document.getElementById("score2");
+    scoor2++;
+    updateScore2.innerHTML = scoor2;
+    alert("Player 2 Wins!");
+  }
+  if (counter4 == 1 && counter5 == 1 && counter6 == 1) {
+    var updateScore1 = document.getElementById("score1");
+    scoor1++;
+    updateScore1.innerHTML = scoor1;
+    alert("Player 1 Wins!");
+  } else if (counter4 == 2 && counter5 == 2 && counter6 == 2) {
+    var updateScore2 = document.getElementById("score2");
+    scoor2++;
+    updateScore2.innerHTML = scoor2;
+    alert("Player 2 Wins!");
+  }
+  else if (counter7 == 1 && counter8 == 1 && counter9 == 1) {
+    var updateScore1 = document.getElementById("score1");
+    scoor1++;
+    updateScore1.innerHTML = scoor1;
+    alert("Player 1 Wins!");
+  } else if (counter7 == 2 && counter8 == 2 && counter9 == 2) {
+    var updateScore2 = document.getElementById("score2");
+    scoor2++;
+    updateScore2.innerHTML = scoor2;
+    alert("Player 2 Wins!");
+  }
+  else if (counter == 1 && counter4 == 1 && counter7 == 1) {
+    var updateScore1 = document.getElementById("score1");
+    scoor1++;
+    updateScore1.innerHTML = scoor1;
+    alert("Player 1 Wins!");
+  } else if (counter == 2 && counter4 == 2 && counter7 == 2) {
+    var updateScore2 = document.getElementById("score2");
+    scoor2++;
+    updateScore2.innerHTML = scoor2;
+    alert("Player 2 Wins!");
+  }
+  else if (counter5 == 1 && counter2 == 1 && counter8 == 1) {
+    var updateScore1 = document.getElementById("score1");
+    scoor1++;
+    updateScore1.innerHTML = scoor1;
+    alert("Player 1 Wins!");
+  } else if (counter5 == 2 && counter2 == 2 && counter8 == 2) {
+    var updateScore2 = document.getElementById("score2");
+    scoor2++;
+    updateScore2.innerHTML = scoor2;
+    alert("Player 2 Wins!");
+  }
+  else if (counter6 == 1 && counter9 == 1 && counter3 == 1) {
+    var updateScore1 = document.getElementById("score1");
+    scoor1++;
+    updateScore1.innerHTML = scoor1;
+    alert("Player 1 Wins!");
+  } else if (counter6 == 2 && counter9 == 2 && counter3 == 2) {
+    var updateScore2 = document.getElementById("score2");
+    scoor2++;
+    updateScore2.innerHTML = scoor2;
+    alert("Player 2 Wins!");
+  }
+  else if (counter == 1 && counter5 == 1 && counter9 == 1) {
+    var updateScore1 = document.getElementById("score1");
+    scoor1++;
+    updateScore1.innerHTML = scoor1;
+    alert("Player 1 Wins!");
+  } else if (counter == 2 && counter5 == 2 && counter9 == 2) {
+    var updateScore2 = document.getElementById("score2");
+    scoor2++;
+    updateScore2.innerHTML = scoor2;
+    alert("Player 2 Wins!");
+  }
+  else if (counter5 == 1 && counter7 == 1 && counter3 == 1) {
+    var updateScore1 = document.getElementById("score1");
+    scoor1++;
+    updateScore1.innerHTML = scoor1;
+    alert("Player 1 Wins!");
+  } else if (counter5 == 2 && counter7 == 2 && counter3 == 2) {
+    var updateScore2 = document.getElementById("score2");
+    scoor2++;
+    updateScore2.innerHTML = scoor2;
+    alert("Player 2 Wins!");
+  }
+}
