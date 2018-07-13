@@ -1,0 +1,104 @@
+body {
+  background-image: url("images/tableImage.jpg");
+}
+
+h1 {
+  font-family: 'Chela One', cursive;
+  text-align: center;
+  font-size: 500%;
+  /* padding-left: 2%; */
+}
+
+.container {
+  max-width: 700px;
+  max-height: 700px;
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-auto-rows: 200px 200px 200px;
+  /* border: red 5px solid; */
+  grid-gap: 50px;
+  margin-left: 22%;
+  background-image: url("images/tttboard.jpg");
+  background-position: center;
+  background-size: cover;
+  font-family: 'Gaegu', cursive;
+}
+
+
+
+#score-card {
+max-width: 150px;
+max-height: 300px;
+background-image: url("images/paperBlank.jpg");
+font-size: 150%;
+text-align: center;
+font-family: 'Gaegu', cursive;
+}
+
+#score-card input {
+background-image: url("images/paperBlank.jpg");
+border: 20px none;
+align-items: center;
+font-size: 100%;
+max-width: 75%;
+text-align: center;
+font-family: 'Gaegu', cursive;
+text-overflow: clip;
+}
+
+.gameSpace {
+  max-width: 180px;
+  max-height: 180px;
+  /* border: black 5px solid; */
+  margin: 5%;
+}
+
+.gameSpace img {
+  min-width: 150px;
+  min-height: 150px;
+  max-width: 150px;
+  max-height: 150px;
+
+}
+#one {
+/* margin: 10%; */
+}
+
+#two {
+/* margin-left: 0%;
+margin-top: 10%; */
+}
+
+#three {
+
+}
+
+#four {
+
+
+}
+
+#five {
+
+
+}
+
+#six {
+
+
+}
+
+#seven {
+
+
+}
+
+#eight {
+
+
+}
+
+#nine {
+
+
+}
