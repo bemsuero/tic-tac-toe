@@ -10,17 +10,18 @@
   </head>
   <body>
     <h1>Tic Tac Toe</h1>
-    <div id="score-card">Score Card Player 1  (x)<div id="score1"></div> Player 2 (o) <div id="score2"></div> </div> <button onclick="resetBoard()">Reset Board</button>
+    <div id="score-card">Score Card Player 1  (x)<div id="score1"></div> Player 2 (o) <div id="score2"></div> </div> <button id="winButton" onclick="winConditions()">Submit Victory</button>
+</div>
 <div class="container">
-  <img class="gameSpace" onclick="cycleXo();winConditions();" id="one">
-  <img class="gameSpace" onclick="cycleXo2();winConditions();" id="two">
-  <img class="gameSpace" onclick="cycleXo3();winConditions();" id="three">
-  <img class="gameSpace" onclick="cycleXo4();winConditions();" id="four">
-  <img class="gameSpace" onclick="cycleXo5();winConditions();" id="five">
-  <img class="gameSpace" onclick="cycleXo6();winConditions();" id="six">
-  <img class="gameSpace" onclick="cycleXo7();winConditions();" id="seven">
-  <img class="gameSpace" onclick="cycleXo8();winConditions();" id="eight">
-  <img class="gameSpace" onclick="cycleXo9();winConditions();" id="nine">
+  <img class="gameSpace" onclick="cycleXo()" id="one">
+  <img class="gameSpace" onclick="cycleXo2()" id="two">
+  <img class="gameSpace" onclick="cycleXo3()" id="three">
+  <img class="gameSpace" onclick="cycleXo4()" id="four">
+  <img class="gameSpace" onclick="cycleXo5()" id="five">
+  <img class="gameSpace" onclick="cycleXo6()" id="six">
+  <img class="gameSpace" onclick="cycleXo7()" id="seven">
+  <img class="gameSpace" onclick="cycleXo8()" id="eight">
+  <img class="gameSpace" onclick="cycleXo9()" id="nine">
 </div>
 
 

@@ -212,12 +212,14 @@ function cycleXo9() {
     counter9 = 0;
   }
 };
+
 var keepScore = document.getElementById("score1");
 keepScore.innerHTML = "0";
 var keepScore2 = document.getElementById("score2");
 keepScore2.innerHTML = "0";
 var scoor1 = 0;
 var scoor2 = 0;
+
 function winConditions() {
   if (counter == 1 && counter2 == 1 && counter3 == 1) {
     var updateScore1 = document.getElementById("score1");
@@ -307,4 +309,7 @@ function winConditions() {
     updateScore2.innerHTML = scoor2;
     alert("Player 2 Wins!");
   }
+  else {
+  }
+  resetBoard();
 }
