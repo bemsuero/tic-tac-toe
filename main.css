@@ -93,7 +93,7 @@ button {
   z-index: 2
 }
 
-@media only screen and (min-width: 320px) and (max-width: 410px) {
+@media only screen and (min-width: 320px) and (max-width: 369px) {
 
   #heading {
     padding-top: 5%;
@@ -134,7 +134,174 @@ button {
 }
 
 @media only screen
-and (min-device-width : 411px)
+and (min-device-width : 370px)
+and (max-device-width : 440px) {
+
+  #heading {
+    padding-top: 5%;
+  }
+
+  .gameSpace {
+      max-width:78%;
+    }
+
+    .container {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 28vw 28vw 30vw;
+        margin-left: 9%;
+        margin-right: 3%;
+        grid-gap: 0;
+        grid-auto-rows: 20vh;
+      }
+
+      #score-card {
+        top: 0%;
+        left: 28%;
+        opacity: .2;
+      }
+
+      #winButton {
+        top: 32%;
+        left: 28%;
+        opacity: .2;
+      }
+
+      #score-card:hover {
+        opacity: 1;
+      }
+      #winButton:hover {
+        opacity: 1;
+      }
+
+
+}
+@media only screen
+and (min-device-width : 441px)
+and (max-device-width : 500px) {
+
+  #heading {
+    padding-top: 5%;
+  }
+
+  .gameSpace {
+      max-width:78%;
+    }
+
+    .container {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 29vw 28vw 30vw;
+        margin-left: 9%;
+        margin-right: 3%;
+        grid-gap: 0;
+        grid-auto-rows: 25vh;
+      }
+
+      #score-card {
+        top: 0%;
+        left: 30%;
+        opacity: .2;
+      }
+
+      #winButton {
+        top: 32%;
+        left: 30%;
+        opacity: .2;
+      }
+
+      #score-card:hover {
+        opacity: 1;
+      }
+      #winButton:hover {
+        opacity: 1;
+      }
+
+
+}
+@media only screen
+and (min-device-width : 501px)
+and (max-device-width : 671px) {
+
+  #heading {
+    padding-top: 5%;
+  }
+
+  .gameSpace {
+      max-width:78%;
+    }
+
+    .container {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 29vw 28vw 30vw;
+        margin-left: 9%;
+        margin-right: 3%;
+        grid-gap: 0;
+        grid-auto-rows: 35vh;
+      }
+
+      #score-card {
+        top: 0%;
+        left: 30%;
+        opacity: .2;
+      }
+
+      #winButton {
+        top: 32%;
+        left: 30%;
+        opacity: .2;
+      }
+
+      #score-card:hover {
+        opacity: 1;
+      }
+      #winButton:hover {
+        opacity: 1;
+      }
+
+
+}
+@media only screen
+and (min-device-width : 672px)
 and (max-device-width : 736px) {
+
+  #heading {
+    padding-top: 5%;
+  }
+
+  .gameSpace {
+      max-width:78%;
+    }
+
+    .container {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 29vw 28vw 30vw;
+        margin-left: 9%;
+        margin-right: 3%;
+        grid-gap: 0;
+        grid-auto-rows: 45vh;
+      }
+
+      #score-card {
+        top: 0%;
+        left: 30%;
+        opacity: .2;
+      }
+
+      #winButton {
+        top: 32%;
+        left: 30%;
+        opacity: .2;
+      }
+
+      #score-card:hover {
+        opacity: 1;
+      }
+      #winButton:hover {
+        opacity: 1;
+      }
+
 
 }
