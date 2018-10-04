@@ -92,45 +92,49 @@ button {
   max-height: 150px;
   z-index: 2
 }
-#one {
-/* margin: 10%; */
+
+@media only screen and (min-width: 320px) and (max-width: 410px) {
+
+  #heading {
+    padding-top: 5%;
+  }
+
+  .gameSpace {
+      max-width:78%;
+    }
+
+    .container {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 26vw 28vw 30vw;
+        margin-left: 9%;
+        margin-right: 3%;
+        grid-gap: 0;
+        grid-auto-rows: 17vh;
+      }
+
+      #score-card {
+        top: 0%;
+        left: 28%;
+        opacity: .2;
+      }
+
+      #winButton {
+        top: 32%;
+        left: 28%;
+        opacity: .2;
+      }
+
+      #score-card:hover {
+        opacity: 1;
+      }
+      #winButton:hover {
+        opacity: 1;
+      }
 }
 
-#two {
-/* margin-left: 0%;
-margin-top: 10%; */
-}
-
-#three {
-
-}
-
-#four {
-
-
-}
-
-#five {
-
-
-}
-
-#six {
-
-
-}
-
-#seven {
-
-
-}
-
-#eight {
-
-
-}
-
-#nine {
-
+@media only screen
+and (min-device-width : 411px)
+and (max-device-width : 736px) {
 
 }
